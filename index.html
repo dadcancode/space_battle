@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="game-container">
+        <div class="game-fields" id="left">
+            <div class="player-fields" id="user-avatar">
+                <img id="user-avatar-data" src="" alt="">
+            </div>
+            <div class="player-fields" id="user-name">
+                <p class="game-info">Name:</p>
+                <p id="user-name-data">Your name</p>
+            </div>
+            <div class="player-fields" id="user-firepower">
+                <p class="game-info">Firepower:</p>
+                <p id="user-firepower-data">numbers</p>
+            </div>
+            <div class="player-fields" id="user-hull">
+                <p class="game-info">Hull:</p>
+                <p id="user-hull-data">numbers%</p>
+            </div>
+            <div class="player-fields" id="user-accuracy">
+                <p class="game-info">Accuracy:</p>
+                <p id="user-accuracy-data">number.s</p>
+            </div>
+        </div>
+        <div class="game-fields" id="middle">
+            <div class="status-fields" id="status-avatar">
+                <img id="status-avatar-data" src="" alt="">
+            </div>
+            <div class="status-fields" id="status-message">
+                <p class="game-info">Message:</p>
+                <p id="status-message-data">messages</p>
+            </div>
+            <div class="status-fields" id="status-buttons">
+                <button onclick="attack()" class="action-button" id="attack-button">Attack</button>
+                <button class="action-button" id="retreat-button">Retreat</button>
+            </div>
+        </div>
+        <div class="game-fields" id="right">
+            <div class="player-fields" id="enemy-avatar">
+                <img id="enemy-avatar-data" src="" alt="">
+            </div>
+            <div class="player-fields" id="enemy-name">
+                <p class="game-info">Name:</p>
+                <p id="enemy-name-data">Your name</p>
+            </div>
+            <div class="player-fields" id="enemy-firepower">
+                <p class="game-info">Firepower:</p>
+                <p id="enemy-firepower-data">numbers</p>
+            </div>
+            <div class="player-fields" id="enemy-hull">
+                <p class="game-info">Hull:</p>
+                <p id="enemy-hull-data">numbers%</p>
+            </div>
+            <div class="player-fields" id="enemy-accuracy">
+                <p class="game-info">Accuracy:</p>
+                <p id="enemy-accuracy-data">number.s</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
